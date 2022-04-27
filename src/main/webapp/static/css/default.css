@@ -1,0 +1,103 @@
+* {margin: 0px; font-size: 12px; font-family: verdana, arial, sans-serif;}
+h1 {font-size: 20px;}
+h2 {font-size: 18px;}
+h3 {font-size: 16px;}
+a {color: black;}
+a:hover {color: #ff7f16;}
+
+.tbl { border-bottom: 1px solid black; border-right: 1px solid black; width: 100%;}
+.tbl th, .tbl td { border-top: 1px solid silver; border-left: 1px solid silver; vertical-align: top; padding: 5px;}
+
+.news .tbl {margin-bottom: 20px;}
+
+.menu-vert {list-style: none;}
+
+.menu-hor li {
+    display: inline;
+    margin-right: 5px;
+    padding: 3px;
+}
+
+p {text-align: justify; margin-bottom: 5px; margin-top: 5px;}
+
+/******************* min site blocks ****************************/
+
+#container {
+    margin: 0px auto;
+    text-align: left;
+    width: 960px;
+}
+#content{
+}
+#left{
+    width:192px;
+    float:left;
+}
+#right{
+    width:192px;
+    float:right;
+}
+#portalmiddle{
+    margin-left:206px;
+    margin-right:196px;
+    width:450px;
+}
+#mainmiddle{
+    margin-left:206px;
+    margin-right:0px;
+    width:auto;
+}
+
+/******************* min site blocks ****************************/
+
+/********************* block & menu ****************************/
+.block{
+    /*background-color: #151616;*/
+    border-radius:5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    -khtml-border-radius:5px;
+    border: 1px solid #262727;
+    padding: 0px;
+    margin-bottom: 15px;
+}
+.menu .block {width: 192px; padding-bottom: 10px;}
+.block h3, .block .header{
+    /*background-color: #262727;*/
+    background-color: #eee;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color:#000000;
+    text-decoration:none;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-top-right-radius:5px;
+    border-top-left-radius:5px;
+    border-bottom: 1px solid #ccc;
+}
+
+.block .header span {font-weight: normal;}
+.block .content {padding: 5px; }
+.block .footer {text-align: right; font-style: italic; padding: 3px;}
+
+
+.menu-hor li {
+    display: inline;
+    margin-right: 5px;
+    padding: 3px;
+}
+
+/************** forms *******************/
+
+form ul li {list-style-type: none;}
+form ul li label { display: inline-block; min-width: 200px; }
+
+.resultok {border: green 1px solid; background-color: yellow; color: black; padding: 10px;}
+.resulterr {border: #ff6666 1px solid;  background-color: red; color: white; padding: 10px;}
+.resulterr a{color: white; text-decoration: underline;}
+.resulterr a:hover {color: yellow;}
+
+.txt_g{ color: forestgreen; }
+
+.note {background-color: #fffcde;}
